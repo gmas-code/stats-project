@@ -10,7 +10,7 @@ import pandas as pd
 from sklearn.preprocessing import scale
 import seaborn as sns
 
-os.chdir('C:/Users/gusta/Desktop/Python Notebooks')
+os.chdir(DIR)
 iris = pd.read_csv('iris.csv.csv')
 iris.head()
 
